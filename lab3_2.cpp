@@ -18,9 +18,11 @@ int main ()
     // Get the room dimensions
     cout << "Enter room length (in feet): ";
     cin  >> length;
+    cout << "Length= " << length << endl;
 
     cout << "Enter room width (in feet): ";
     cin  >> width;
+    cout << "Width = " << width << endl;
 
     // Compute and display the area
     area = length * width;
